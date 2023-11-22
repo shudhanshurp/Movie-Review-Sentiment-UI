@@ -1,7 +1,12 @@
 import "./App.css";
 import poster from "./assets/background.jpg";
+import { useEffect } from "react";
+import { Link } from "react-router-dom";
 
 function App() {
+    useEffect(() => {
+        document.title = "Home";
+    }, []);
     return (
         <div>
             <div className="posterDiv">
@@ -11,7 +16,11 @@ function App() {
                 <div className="QuoteOfPage">
                     Share your movie-watching experience with the world
                 </div>
-                <button className="submitUserReview ">Write a review</button>
+                <Link to="/write-a-review">
+                    <button className="submitUserReview ">
+                        Write a review
+                    </button>
+                </Link>
             </div>
         </div>
     );

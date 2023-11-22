@@ -69,6 +69,9 @@ function Prediction() {
         slidesToScroll: 1,
     };
 
+    useEffect(() => {
+        document.title = "Write a review";
+    }, []);
     return (
         <div>
             <div className="movieDetails">
