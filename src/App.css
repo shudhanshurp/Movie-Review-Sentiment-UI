@@ -197,6 +197,7 @@ body {
     margin: 1rem 0;
     cursor: pointer;
     z-index: 2;
+    text-decoration: none;
 }
 
 .output-container {
@@ -304,9 +305,15 @@ body {
 }
 
 .LoadingScreen {
-    height: 48.75vh;
+    height: 47vh;
     font-size: 2rem;
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.extraBtn {
+    margin: 2.5%;
+    margin-bottom: -1.9%;
+    padding: 1%;
 }

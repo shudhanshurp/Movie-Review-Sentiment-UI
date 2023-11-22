@@ -16,10 +16,11 @@ function App() {
                 <div className="QuoteOfPage">
                     Share your movie-watching experience with the world
                 </div>
-                <Link to="/write-a-review">
-                    <button className="submitUserReview ">
-                        Write a review
-                    </button>
+                <Link
+                    to="/write-a-review"
+                    className="submitUserReview extraBtn"
+                >
+                    Write a review
                 </Link>
             </div>
         </div>
